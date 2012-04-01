@@ -21,7 +21,7 @@
   UIAlertView *alert = [[UIAlertView alloc] 
                         initWithTitle:@"Abrir link"
                         message:message
-                        delegate:nil 
+                        delegate:self 
                         cancelButtonTitle:[self noButtonTitle]
                         otherButtonTitles:[self yesButtonTitle], nil];
   
@@ -34,6 +34,20 @@
 
 -(NSString *) noButtonTitle{
   return @"Não";
+}
+
+-(void) alertView:(UIAlertView *)alertView 
+        clickedButtonAtIndex:(NSInteger)buttonIndex{
+
+  NSString *botaoApertado = [alertView buttonTitleAtIndex:buttonIndex];
+  
+  if ([botaoApertado isEqualToString:[self yesButtonTitle]] ) {
+    NSLog(@"Apertei no Sim");
+  }else if ([botaoApertado isEqualToString:[self noButtonTitle]]) {
+    NSLog(@"Apertei no não");
+  }
+  
+
 }
 
 -(void) viewDidAppear:(BOOL)animated{
