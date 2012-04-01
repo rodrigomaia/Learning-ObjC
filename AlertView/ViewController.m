@@ -9,67 +9,37 @@
 #import "ViewController.h"
 
 @interface ViewController ()
--(void)alertarSecureTextInput;
--(void)alertarPlainTextInput;
--(void)alertarLoginAndPasswordInput;
+
 @end
 
 @implementation ViewController
 
 -(IBAction)alertar:(id)sender{
+  
+  NSString *message = @"Deseja abrir este link no Safari?";
+  
   UIAlertView *alert = [[UIAlertView alloc] 
-                        initWithTitle:@"titulo" 
-                        message:@"Alerta Padrão" 
+                        initWithTitle:@"Abrir link"
+                        message:message
                         delegate:nil 
-                        cancelButtonTitle:@"cancel" 
-                        otherButtonTitles:@"ok", nil];
+                        cancelButtonTitle:[self noButtonTitle]
+                        otherButtonTitles:[self yesButtonTitle], nil];
   
   [alert show];
-  
-  [self alertarSecureTextInput];
-  [self alertarPlainTextInput];
-  [self alertarLoginAndPasswordInput];
 }
 
-- (void) alertarSecureTextInput{  
-  UIAlertView *alert = [[UIAlertView alloc] 
-                         initWithTitle:@"titulo" 
-                         message:@"Alerta Security Text Input" 
-                         delegate:nil 
-                         cancelButtonTitle:@"cancel" 
-                         otherButtonTitles:@"ok", nil];
-  
-  [alert setAlertViewStyle:UIAlertViewStyleSecureTextInput];
+-(NSString *) yesButtonTitle{
+  return @"Sim";
+}
 
-  [alert show];
-};
+-(NSString *) noButtonTitle{
+  return @"Não";
+}
 
-- (void) alertarPlainTextInput{
-  UIAlertView *alert = [[UIAlertView alloc] 
-                        initWithTitle:@"titulo" 
-                        message:@"Alerta Plain Text Input" 
-                        delegate:nil 
-                        cancelButtonTitle:@"cancel" 
-                        otherButtonTitles:@"ok", nil];
-
-  [alert setAlertViewStyle:UIAlertViewStylePlainTextInput];
-  
-  [alert show];
-};
-
-- (void) alertarLoginAndPasswordInput{
-  UIAlertView *alert = [[UIAlertView alloc] 
-                        initWithTitle:@"titulo" 
-                        message:@"Alerta Login and Password Input" 
-                        delegate:nil 
-                        cancelButtonTitle:@"cancel" 
-                        otherButtonTitles:@"ok", nil];
-  
-  [alert setAlertViewStyle:UIAlertViewStyleLoginAndPasswordInput];
-  
-  [alert show];
-};
-
+-(void) viewDidAppear:(BOOL)animated{
+  [super viewDidAppear:animated];
+  self.view.backgroundColor = [UIColor whiteColor];
+}
 
 - (void)viewDidLoad
 {
