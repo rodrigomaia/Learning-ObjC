@@ -9,43 +9,44 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property(nonatomic, assign) UITextField *cartao;
 @end
 
 @implementation ViewController
 
+@synthesize cartao;
+
+-(void) dealloc{
+  [super dealloc];
+  [cartao release];
+}
+
 -(IBAction)alertar:(id)sender{
   
-  NSString *message = @"Deseja abrir este link no Safari?";
-  
   UIAlertView *alert = [[UIAlertView alloc] 
-                        initWithTitle:@"Abrir link"
-                        message:message
+                        initWithTitle:@"Informações de Pagamento" 
+                        message:@"Cartão de Crédito" 
                         delegate:self 
-                        cancelButtonTitle:[self noButtonTitle]
-                        otherButtonTitles:[self yesButtonTitle], nil];
+                        cancelButtonTitle:@"Cancelar" 
+                        otherButtonTitles:@"Ok", nil];
+  
+  [alert setAlertViewStyle:UIAlertViewStylePlainTextInput];
+  
+  cartao = [alert textFieldAtIndex:0];
+  cartao.keyboardType = UIKeyboardTypeNumberPad;
   
   [alert show];
-}
-
--(NSString *) yesButtonTitle{
-  return @"Sim";
-}
-
--(NSString *) noButtonTitle{
-  return @"Não";
 }
 
 -(void) alertView:(UIAlertView *)alertView 
         clickedButtonAtIndex:(NSInteger)buttonIndex{
 
   if (buttonIndex == 0) {
-    NSLog(@"Apertei no Sim");
+    NSLog(@"Apertei no Cancelar");
   }else if (buttonIndex == 1) {
-    NSLog(@"Apertei no Não");
+    NSLog(@"O cartão de crédito é: %@", cartao.text);
   }
   
-
 }
 
 -(void) viewDidAppear:(BOOL)animated{
