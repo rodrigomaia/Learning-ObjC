@@ -39,12 +39,10 @@
 -(void) alertView:(UIAlertView *)alertView 
         clickedButtonAtIndex:(NSInteger)buttonIndex{
 
-  NSString *botaoApertado = [alertView buttonTitleAtIndex:buttonIndex];
-  
-  if ([botaoApertado isEqualToString:[self yesButtonTitle]] ) {
+  if (buttonIndex == 0) {
     NSLog(@"Apertei no Sim");
-  }else if ([botaoApertado isEqualToString:[self noButtonTitle]]) {
-    NSLog(@"Apertei no não");
+  }else if (buttonIndex == 1) {
+    NSLog(@"Apertei no Não");
   }
   
 
