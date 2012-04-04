@@ -14,10 +14,37 @@
 
 @implementation ViewController
 
+@synthesize switch1=_switch1, 
+            switch2=_switch2, 
+            switch3=_switch3;
+
+-(void) dealloc{
+  [super dealloc];
+  [_switch1 release];
+  [_switch2 release];  
+  [_switch3 release];
+}
+
+-(void) mecheuNoSwitch:(UISwitch *)sender{
+  NSLog(@"%d setado %@", sender.tag, ([sender isOn]?@"YES":@"NO"));
+}
+
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+  [super viewDidLoad];
+  
+  [self.switch1 addTarget:self 
+                  action:@selector(mecheuNoSwitch:) 
+         forControlEvents:UIControlEventValueChanged];
+
+  [self.switch2 addTarget:self 
+                   action:@selector(mecheuNoSwitch:) 
+         forControlEvents:UIControlEventValueChanged];
+
+  [self.switch3 addTarget:self 
+                   action:@selector(mecheuNoSwitch:) 
+         forControlEvents:UIControlEventValueChanged];
+
 }
 
 - (void)viewDidUnload

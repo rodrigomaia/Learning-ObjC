@@ -10,4 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property(nonatomic, strong) IBOutlet UISwitch *switch1;
+@property(nonatomic, strong) IBOutlet UISwitch *switch2;
+@property(nonatomic, strong) IBOutlet UISwitch *switch3;
+
 @end
