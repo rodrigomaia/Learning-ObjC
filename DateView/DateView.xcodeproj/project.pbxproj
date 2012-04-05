@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B9F480F152D312F00F397F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9F480E152D312F00F397F5 /* UIKit.framework */; };
+		5B9F4811152D312F00F397F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9F4810152D312F00F397F5 /* Foundation.framework */; };
+		5B9F4813152D312F00F397F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9F4812152D312F00F397F5 /* CoreGraphics.framework */; };
+		5B9F4819152D312F00F397F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B9F4817152D312F00F397F5 /* InfoPlist.strings */; };
+		5B9F481B152D312F00F397F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9F481A152D312F00F397F5 /* main.m */; };
+		5B9F481F152D312F00F397F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9F481E152D312F00F397F5 /* AppDelegate.m */; };
+		5B9F4822152D312F00F397F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9F4821152D312F00F397F5 /* ViewController.m */; };
+		5B9F4825152D312F00F397F5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B9F4823152D312F00F397F5 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B9F480A152D312F00F397F5 /* DateView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9F480E152D312F00F397F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B9F4810152D312F00F397F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B9F4812152D312F00F397F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B9F4816152D312F00F397F5 /* DateView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DateView-Info.plist"; sourceTree = "<group>"; };
+		5B9F4818152D312F00F397F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B9F481A152D312F00F397F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B9F481C152D312F00F397F5 /* DateView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DateView-Prefix.pch"; sourceTree = "<group>"; };
+		5B9F481D152D312F00F397F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B9F481E152D312F00F397F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B9F4820152D312F00F397F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B9F4821152D312F00F397F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B9F4824152D312F00F397F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B9F4807152D312F00F397F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9F480F152D312F00F397F5 /* UIKit.framework in Frameworks */,
+				5B9F4811152D312F00F397F5 /* Foundation.framework in Frameworks */,
+				5B9F4813152D312F00F397F5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B9F47FF152D312F00F397F5 = {
+			isa = PBXGroup;
+			children = (
+				5B9F4814152D312F00F397F5 /* DateView */,
+				5B9F480D152D312F00F397F5 /* Frameworks */,
+				5B9F480B152D312F00F397F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B9F480B152D312F00F397F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B9F480A152D312F00F397F5 /* DateView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B9F480D152D312F00F397F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B9F480E152D312F00F397F5 /* UIKit.framework */,
+				5B9F4810152D312F00F397F5 /* Foundation.framework */,
+				5B9F4812152D312F00F397F5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B9F4814152D312F00F397F5 /* DateView */ = {
+			isa = PBXGroup;
+			children = (
+				5B9F481D152D312F00F397F5 /* AppDelegate.h */,
+				5B9F481E152D312F00F397F5 /* AppDelegate.m */,
+				5B9F4820152D312F00F397F5 /* ViewController.h */,
+				5B9F4821152D312F00F397F5 /* ViewController.m */,
+				5B9F4823152D312F00F397F5 /* ViewController.xib */,
+				5B9F4815152D312F00F397F5 /* Supporting Files */,
+			);
+			path = DateView;
+			sourceTree = "<group>";
+		};
+		5B9F4815152D312F00F397F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B9F4816152D312F00F397F5 /* DateView-Info.plist */,
+				5B9F4817152D312F00F397F5 /* InfoPlist.strings */,
+				5B9F481A152D312F00F397F5 /* main.m */,
+				5B9F481C152D312F00F397F5 /* DateView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B9F4809152D312F00F397F5 /* DateView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B9F4828152D312F00F397F5 /* Build configuration list for PBXNativeTarget "DateView" */;
+			buildPhases = (
+				5B9F4806152D312F00F397F5 /* Sources */,
+				5B9F4807152D312F00F397F5 /* Frameworks */,
+				5B9F4808152D312F00F397F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateView;
+			productName = DateView;
+			productReference = 5B9F480A152D312F00F397F5 /* DateView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B9F4801152D312F00F397F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 5B9F4804152D312F00F397F5 /* Build configuration list for PBXProject "DateView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B9F47FF152D312F00F397F5;
+			productRefGroup = 5B9F480B152D312F00F397F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B9F4809152D312F00F397F5 /* DateView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B9F4808152D312F00F397F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9F4819152D312F00F397F5 /* InfoPlist.strings in Resources */,
+				5B9F4825152D312F00F397F5 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B9F4806152D312F00F397F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9F481B152D312F00F397F5 /* main.m in Sources */,
+				5B9F481F152D312F00F397F5 /* AppDelegate.m in Sources */,
+				5B9F4822152D312F00F397F5 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B9F4817152D312F00F397F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B9F4818152D312F00F397F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B9F4823152D312F00F397F5 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B9F4824152D312F00F397F5 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B9F4826152D312F00F397F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B9F4827152D312F00F397F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B9F4829152D312F00F397F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateView/DateView-Prefix.pch";
+				INFOPLIST_FILE = "DateView/DateView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B9F482A152D312F00F397F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateView/DateView-Prefix.pch";
+				INFOPLIST_FILE = "DateView/DateView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B9F4804152D312F00F397F5 /* Build configuration list for PBXProject "DateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9F4826152D312F00F397F5 /* Debug */,
+				5B9F4827152D312F00F397F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B9F4828152D312F00F397F5 /* Build configuration list for PBXNativeTarget "DateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9F4829152D312F00F397F5 /* Debug */,
+				5B9F482A152D312F00F397F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B9F4801152D312F00F397F5 /* Project object */;
+}
