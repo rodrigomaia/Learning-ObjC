@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
-@property(nonatomic, strong) UIPickerView *pickView;
+@property(nonatomic, strong) IBOutlet UIPickerView *pickView;
 @end

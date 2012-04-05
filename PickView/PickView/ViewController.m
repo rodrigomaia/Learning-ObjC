@@ -19,12 +19,6 @@
 - (void)viewDidLoad
 {
   [super viewDidLoad];
-  self.pickView = [[UIPickerView alloc] init];
-  self.pickView.dataSource = self;
-  self.pickView.delegate = self;
-  self.pickView.showsSelectionIndicator = YES;
-  self.pickView.center = self.view.center;
-  [self.view addSubview:self.pickView];
 }
 
 - (NSString *) pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component{
