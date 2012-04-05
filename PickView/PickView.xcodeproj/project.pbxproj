@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B9F47E3152D29DB00F397F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9F47E2152D29DB00F397F5 /* UIKit.framework */; };
+		5B9F47E5152D29DB00F397F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9F47E4152D29DB00F397F5 /* Foundation.framework */; };
+		5B9F47E7152D29DB00F397F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9F47E6152D29DB00F397F5 /* CoreGraphics.framework */; };
+		5B9F47ED152D29DB00F397F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B9F47EB152D29DB00F397F5 /* InfoPlist.strings */; };
+		5B9F47EF152D29DB00F397F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9F47EE152D29DB00F397F5 /* main.m */; };
+		5B9F47F3152D29DB00F397F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9F47F2152D29DB00F397F5 /* AppDelegate.m */; };
+		5B9F47F6152D29DB00F397F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9F47F5152D29DB00F397F5 /* ViewController.m */; };
+		5B9F47F9152D29DB00F397F5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B9F47F7152D29DB00F397F5 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B9F47DE152D29DB00F397F5 /* PickView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9F47E2152D29DB00F397F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B9F47E4152D29DB00F397F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B9F47E6152D29DB00F397F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B9F47EA152D29DB00F397F5 /* PickView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PickView-Info.plist"; sourceTree = "<group>"; };
+		5B9F47EC152D29DB00F397F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B9F47EE152D29DB00F397F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B9F47F0152D29DB00F397F5 /* PickView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PickView-Prefix.pch"; sourceTree = "<group>"; };
+		5B9F47F1152D29DB00F397F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B9F47F2152D29DB00F397F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B9F47F4152D29DB00F397F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B9F47F5152D29DB00F397F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B9F47F8152D29DB00F397F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B9F47DB152D29DB00F397F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9F47E3152D29DB00F397F5 /* UIKit.framework in Frameworks */,
+				5B9F47E5152D29DB00F397F5 /* Foundation.framework in Frameworks */,
+				5B9F47E7152D29DB00F397F5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B9F47D3152D29DB00F397F5 = {
+			isa = PBXGroup;
+			children = (
+				5B9F47E8152D29DB00F397F5 /* PickView */,
+				5B9F47E1152D29DB00F397F5 /* Frameworks */,
+				5B9F47DF152D29DB00F397F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B9F47DF152D29DB00F397F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B9F47DE152D29DB00F397F5 /* PickView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B9F47E1152D29DB00F397F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B9F47E2152D29DB00F397F5 /* UIKit.framework */,
+				5B9F47E4152D29DB00F397F5 /* Foundation.framework */,
+				5B9F47E6152D29DB00F397F5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B9F47E8152D29DB00F397F5 /* PickView */ = {
+			isa = PBXGroup;
+			children = (
+				5B9F47F1152D29DB00F397F5 /* AppDelegate.h */,
+				5B9F47F2152D29DB00F397F5 /* AppDelegate.m */,
+				5B9F47F4152D29DB00F397F5 /* ViewController.h */,
+				5B9F47F5152D29DB00F397F5 /* ViewController.m */,
+				5B9F47F7152D29DB00F397F5 /* ViewController.xib */,
+				5B9F47E9152D29DB00F397F5 /* Supporting Files */,
+			);
+			path = PickView;
+			sourceTree = "<group>";
+		};
+		5B9F47E9152D29DB00F397F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B9F47EA152D29DB00F397F5 /* PickView-Info.plist */,
+				5B9F47EB152D29DB00F397F5 /* InfoPlist.strings */,
+				5B9F47EE152D29DB00F397F5 /* main.m */,
+				5B9F47F0152D29DB00F397F5 /* PickView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B9F47DD152D29DB00F397F5 /* PickView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B9F47FC152D29DB00F397F5 /* Build configuration list for PBXNativeTarget "PickView" */;
+			buildPhases = (
+				5B9F47DA152D29DB00F397F5 /* Sources */,
+				5B9F47DB152D29DB00F397F5 /* Frameworks */,
+				5B9F47DC152D29DB00F397F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickView;
+			productName = PickView;
+			productReference = 5B9F47DE152D29DB00F397F5 /* PickView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B9F47D5152D29DB00F397F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 5B9F47D8152D29DB00F397F5 /* Build configuration list for PBXProject "PickView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B9F47D3152D29DB00F397F5;
+			productRefGroup = 5B9F47DF152D29DB00F397F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B9F47DD152D29DB00F397F5 /* PickView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B9F47DC152D29DB00F397F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9F47ED152D29DB00F397F5 /* InfoPlist.strings in Resources */,
+				5B9F47F9152D29DB00F397F5 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B9F47DA152D29DB00F397F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9F47EF152D29DB00F397F5 /* main.m in Sources */,
+				5B9F47F3152D29DB00F397F5 /* AppDelegate.m in Sources */,
+				5B9F47F6152D29DB00F397F5 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B9F47EB152D29DB00F397F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B9F47EC152D29DB00F397F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B9F47F7152D29DB00F397F5 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B9F47F8152D29DB00F397F5 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B9F47FA152D29DB00F397F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B9F47FB152D29DB00F397F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B9F47FD152D29DB00F397F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PickView/PickView-Prefix.pch";
+				INFOPLIST_FILE = "PickView/PickView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B9F47FE152D29DB00F397F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PickView/PickView-Prefix.pch";
+				INFOPLIST_FILE = "PickView/PickView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B9F47D8152D29DB00F397F5 /* Build configuration list for PBXProject "PickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9F47FA152D29DB00F397F5 /* Debug */,
+				5B9F47FB152D29DB00F397F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B9F47FC152D29DB00F397F5 /* Build configuration list for PBXNativeTarget "PickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9F47FD152D29DB00F397F5 /* Debug */,
+				5B9F47FE152D29DB00F397F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B9F47D5152D29DB00F397F5 /* Project object */;
+}
