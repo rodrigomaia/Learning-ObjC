@@ -22,6 +22,11 @@
   }
 }
 
+-(IBAction)apertouBotao:(id)sender{
+  NSLog(@"Apertou no botão.");
+  [self mudouDatePicker:self.datePicker];
+}
+
 - (void)viewDidLoad
 {
   [super viewDidLoad];

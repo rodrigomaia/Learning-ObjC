@@ -10,4 +10,5 @@
 
 @interface ViewController : UIViewController
 @property(nonatomic, strong) IBOutlet UIDatePicker *datePicker;
+-(IBAction) apertouBotao:(id)sender;
 @end
